@@ -1,0 +1,6 @@
+set ylabel 'Energy / [K]'
+set key
+set label "Xe-He collision at v_0=600 m/s, b=0" at 0.3,-250
+plot	INPUT1 u ($0*TimeStep):1 w l lw 2 lc rgb '#fc0d1b' t 'Kinetic energy (Xe)', \
+	INPUT2 u ($0*TimeStep):1 w l lw 2 lc rgb '#1cbe20' t 'Interaction energy (Xe-He)', \
+	INPUT3 u ($0*TimeStep):1 w l lw 2 lc rgb '#1683fb' t 'Impurity energy (Xe)'

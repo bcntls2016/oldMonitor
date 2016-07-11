@@ -1,0 +1,3 @@
+set ylabel 'Energy / [K]'
+set key
+plot INPUT u ($0*TimeStep):1 w l lw 2 t 'Interaction energy'

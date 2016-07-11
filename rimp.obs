@@ -1,0 +1,2 @@
+set ylabel 'Impurity position / [\305]'
+plot INPUT u 1:4 w l lw 2

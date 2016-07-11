@@ -1,0 +1,3 @@
+set ylabel 'Number of ^4He atoms'
+set yrange [980:1010]
+plot INPUT u ($0*TimeStep):1 w l lw 2
